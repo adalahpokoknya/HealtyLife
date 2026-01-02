@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.judul {
+    font-size: 24px;
+    font-weight: 800;
+    color: blue;
+}
+        
+.judul span {
+    color: rgb(118, 118, 255);
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: blue;
+}
+
+.container-akun {
+    display: flex;
+    gap: 15px;
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    background-color: rgb(73, 73, 241);
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login a:hover {
+    background-color: rgb(0, 0, 161);
+}
+
+
+.regis a {
+    text-decoration: none;
+    color: rgb(152, 152, 247);
+    padding: 12px 30px;
+    background: #dfe6e9;
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.regis a:hover {
+    background-color: #9de2ff;
+}
+
+.hero {
+    padding: 90px 0;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.banner-text {
+    background-color: rgba(204, 204, 231, 0.425);
+    padding: 140px 380px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    color: blue;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.layanan {
+    height: 70vh;
+    scroll-margin-top: 180px;
+}
+
+.container-layanan {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.layanan-title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: rgb(109, 109, 109);
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 85%;
+}
+
+.grid {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.grid:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-color: rgb(75, 75, 255);
+}
+
+.icon {
+    width: 50px;
+    background-color: #e3f2fd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: blue;
+    font-size: 20px;
+}
+
+.icon img {
+    width: 50px;
+}
+
+.menu {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+    line-height: 1.4;
+}
+
+.filler {
+    height: auto;
+    background-color: #c6eeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.container-filler {
+    align-items: center;
+    justify-content: center;
+    /* background-color: #b8e1ff; */
+    padding: 100px 340px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.container-filler:hover {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.logo-app {
+    width: 180px;
+    height: 180px;
+    background-color: #8fd0ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: blue;
+    font-size: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.name-app {
+    font-size: 40px;
+}
+
+.sub-name-app {
+    font-size: 11px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.container-install {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.install a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    background-color: rgb(73, 73, 241);
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.install a:hover {
+    background-color: rgb(0, 0, 161);
+}
+
+.why {
+    scroll-margin-top: 70px;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.why-text {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.why-text2  {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.why-text3 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-card {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-card {
+    width: 80%;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 90px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.why-card p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.why-card:hover {
+    transform: translateY(-5px);
+    background-color: white;
+}
+
+.container-card-colom {
+    display: flex;
+    padding: 40px 0 0 0;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.why-card-colom {
+    width: 39%;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 90px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.why-card-colom p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.why-card-colom:hover {
+    transform: translateY(-5px);
+    background-color: white;
+}
+
+.card-text {
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.card-text2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.why-card-colom ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.why-card ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
