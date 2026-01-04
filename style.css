@@ -122,8 +122,8 @@ header {
 
 .layanan {
     padding: 20px 0;
-    height: auto;
     scroll-margin-top: 180px;
+    padding-bottom: 70px;
 }
 
 .container-layanan {
@@ -267,8 +267,9 @@ header {
 
 .why {
     scroll-margin-top: 70px;
-    height: 100vh;
+    height: auto;
     padding: 70px 0;
+    padding-bottom: 80px;
 }
 
 .why-text {
@@ -367,3 +368,90 @@ header {
     font-size: 18px;
 }
 
+.kosong {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.kosong h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.kontak {
+    scroll-margin-top: 180px;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px 70px;
+    margin-bottom: 100px;
+    background-color: #eeeeee;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px
+}
+
+.container-contact {
+    display: flex;
+    gap: 30px;
+}
+
+.grid-contact {
+    background-color: rgb(221, 221, 221);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 115px 60px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.grid-contact:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.pp {
+    
+}
+
+.pp img {
+    width: 100px;
+    background-color: #e3f2fd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    color: blue;
+    font-size: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nama {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.grid-contact a {
+    padding: 14px 30px;
+    background-color: rgb(73, 73, 241);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.grid-contact a:hover {
+    background-color: rgb(0, 0, 161);
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(73, 73, 241);
+    padding: 14px;
+    color: white;
+}
